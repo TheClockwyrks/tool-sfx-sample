@@ -1,0 +1,7 @@
+# The kit this repository was rendered from, written by the superrepo's
+# scripts/repos/render.py from the answers in .copier-answers.yml. `name`
+# decides the dependency edges the dependency-edges gate permits, and `kind`
+# the shape the kit gave the repository.
+name = "tool-sfx-sample"
+kind = "tool"
+description = "The sfx-sample tool: the sfx-sample binary a run image carries to mix sound effects from a baked sample library, layered with the full sfx-synth voice set."

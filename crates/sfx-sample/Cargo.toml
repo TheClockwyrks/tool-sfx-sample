@@ -4,18 +4,20 @@ edition.workspace = true
 version.workspace = true
 license.workspace = true
 publish.workspace = true
+repository.workspace = true
+description = "The sfx-sample binary a run image carries to mix a sound effect from layered clips of a baked sample library and the sfx-synth voices, one operation at a time."
 
 # The `sfx-sample` binary: layered mixing over a baked sample library (`asset_kind =
 # "sfx-sample"`) — the game-audio-DAW tier, a capability superset of `sfx-synth`. A
 # thin CLI over `test-cabinet-audio-core` (the DSP, mixer, render engine, and preview
 # renderers); its run-container image additionally bakes in a sample pack. See
-# `apps/docs/src/content/docs/testing/asset-generation/audio-binaries.md`.
+# https://docs.testcabinet.ai/testing/asset-generation/audio-binaries/.
 [[bin]]
 name = "sfx-sample"
 path = "src/main.rs"
 
 [dependencies]
-test-cabinet-audio-core = { path = "../audio-core" }
+test-cabinet-audio-core = { workspace = true }
 clap = { workspace = true }
 
 [lints]

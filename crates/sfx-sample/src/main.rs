@@ -8,7 +8,7 @@
 //! operation **only records**; `render` mixes the log down to the `.wav` and draws the
 //! preview. The `list-samples` / `sample-info` browse commands query the library and
 //! record nothing. See
-//! `apps/docs/src/content/docs/testing/asset-generation/audio-binaries.md`.
+//! <https://docs.testcabinet.ai/testing/asset-generation/audio-binaries/>.
 
 use std::path::PathBuf;
 use std::process::ExitCode;
