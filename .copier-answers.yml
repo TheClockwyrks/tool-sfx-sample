@@ -2,7 +2,7 @@
 # kit was last rendered or updated from. Copier maintains it through the
 # superrepo's scripts/repos/render.py; a change made here is overwritten by
 # the next update.
-_commit: v0.6.3-5498-g13712560a
+_commit: v0.6.3-5599-g7da095c32
 _src_path: ..
 description: 'The sfx-sample tool: the sfx-sample binary a run image carries to mix
     sound effects from a baked sample library, layered with the full sfx-synth voice
